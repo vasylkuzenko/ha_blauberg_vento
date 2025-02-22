@@ -1,0 +1,12 @@
+{
+  "domain": "blauberg_vento",
+  "name": "Blauberg Vento",
+  "config_flow": true,
+  "version": "0.2.0",
+  "requirements": ["requests", "simplejson"],
+  "dependencies": [],
+  "codeowners": ["@kuzenkos"],
+  "iot_class": "local_polling",
+  "logo": "icon.png",
+  "icon": "icon.png"
+}
