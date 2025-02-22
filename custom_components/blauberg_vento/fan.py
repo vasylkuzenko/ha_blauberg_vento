@@ -22,7 +22,7 @@ SUPPORTED_MODE = (
 )
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry, async_add_entities):
-    """Налаштування вентилятора з конфігурації через UI."""
+    """Config from UI."""
     host = entry.data.get("host")
     if host:
         async_add_entities([BlaubergFan(host)])

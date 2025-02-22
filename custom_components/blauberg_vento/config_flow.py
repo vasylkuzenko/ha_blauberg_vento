@@ -10,18 +10,17 @@ from .const import DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
 
-# Схема конфігурації для введення IP-адреси
 CONFIG_SCHEMA = vol.Schema({
     vol.Required("host"): TextSelector(TextSelectorConfig(type="text"))
 })
 
 class BlaubergVentoConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
-    """Config flow для Blauberg Vento."""
+    """Config flow for Blauberg Vento."""
 
     VERSION = 1
 
     async def async_step_user(self, user_input: dict | None = None) -> FlowResult:
-        """Обробка форми введення користувачем."""
+        """user form input"""
         errors = {}
 
         if user_input is not None:

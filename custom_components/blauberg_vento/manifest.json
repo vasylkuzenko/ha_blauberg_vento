@@ -2,7 +2,7 @@
   "domain": "blauberg_vento",
   "name": "Blauberg Vento",
   "config_flow": true,
-  "version": "0.2.0",
+  "version": "0.2.2",
   "requirements": ["requests", "simplejson"],
   "dependencies": [],
   "codeowners": ["@vasylkuzenko"],

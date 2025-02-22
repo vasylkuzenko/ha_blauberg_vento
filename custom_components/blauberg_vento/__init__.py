@@ -6,10 +6,10 @@ from .const import DOMAIN
 _LOGGER = logging.getLogger(__name__)
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
-    """Налаштування інтеграції Blauberg Vento."""
+    """init Blauberg Vento."""
     hass.async_create_task(hass.config_entries.async_forward_entry_setup(entry, "fan"))
     return True
 
 async def async_unload_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
-    """Видалення інтеграції."""
+    """removing blauberg vento integration."""
     return await hass.config_entries.async_forward_entry_unload(entry, "fan")
