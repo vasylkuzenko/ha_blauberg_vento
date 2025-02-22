@@ -5,8 +5,8 @@
   "version": "0.2.0",
   "requirements": ["requests", "simplejson"],
   "dependencies": [],
-  "codeowners": ["@kuzenkos"],
+  "codeowners": ["@vasylkuzenko"],
   "iot_class": "local_polling",
-  "logo": "icon.png",
-  "icon": "icon.png"
+  "documentation": "https://github.com/vasylkuzenko/ha_blauberg_vento",
+  "issue_tracker": "https://github.com/vasylkuzenko/ha_blauberg_vento/issues"
 }
