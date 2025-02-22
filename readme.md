@@ -47,9 +47,8 @@ After setup, the fan will appear in the list of Home Assistant devices. You can 
 
 MIT © [Vasyl Kuzenko][vasylkuzenko]
 
-<!-- Badges -->
 
-[vasylkuzenko] : https://github.com/vasylkuzenko
+[vasylkuzenko]: https://github.com/vasylkuzenko
 [hacs-url]: https://github.com/hacs/integration
 [hasc-install-url]: https://my.home-assistant.io/redirect/hacs_repository/?owner=vasylkuzenko&repository=ha_blauberg_vento&category=integration
 [hacs-install-image]: https://my.home-assistant.io/badges/hacs_repository.svg
